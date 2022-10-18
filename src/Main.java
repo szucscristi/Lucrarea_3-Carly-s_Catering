@@ -3,6 +3,9 @@ import java.util.Scanner;
 import javax.swing.*;
 
 public class Main {
+    
+    //the name of the global variable should be INVITATI
+    
     static int invitati; // variabila globala
     public static void main(String[] args)
     {
@@ -14,11 +17,11 @@ public class Main {
     }
     public static int invitati() // prima instructiune
     {
-        int NrInvitati;
+        int NrInvitati; //please use camel case
         Scanner inputDevice = new Scanner(System.in);
         System.out.print("Introduceti numarul invitatilor: ");
         NrInvitati=inputDevice.nextInt();
-        inputDevice.nextLine();
+        inputDevice.nextLine();// not necessary
         //inputDevice.close();
         return NrInvitati;
     }
